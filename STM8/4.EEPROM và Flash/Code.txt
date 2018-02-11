@@ -1,0 +1,17 @@
+#define EEPROM ((__EEPROM *)0x4000)
+
+typedef struct{
+unsigned char A;
+unsigned int B;
+unsigned char C[5];
+unsigned char D[5][10];
+} __EEPROM;
+
+void main(){
+//code
+EEPROM->A = 123;
+EEPROM->B = 456;
+EEPROM->C[2] = 123;
+EEPROM->D[1][2] = 123;
+//Code
+}

@@ -1,0 +1,12 @@
+//Ham gui data
+void write_byte_spi(unsigned char byte){
+   while(!SPI_SR_TXE);
+   SPI_DR = byte;
+}
+//Ham nhan data
+unsigned char write_byte_spi(unsigned char byte){
+  while(!SPI_SR_TXE);
+  SPI_DR = byte;
+  while(!SPI_SR_RXE);
+  return SPI_DR
+}

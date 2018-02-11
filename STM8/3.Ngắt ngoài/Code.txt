@@ -1,0 +1,22 @@
+#include "iostm8s103k3.h"
+#include "intrinsics.h"
+#define         LED             PD_ODR_ODR7
+#define         NUT             PD_IDR_IDR6
+
+#pragma vector = EXTI3_vector
+__interrupt void ISR_PD(){
+  LED = ~LED;
+}
+
+void main(){
+  CLK_CKDIVR = 0x00;
+  PD_DDR = 0x80;
+  PD_CR1 = 0xC0;
+  PD_CR2 = 0xC0;
+  EXTI_CR1 = 0x80;
+  LED = 0;
+  __enable_interrupt();
+  while(1){
+  // Hoc Master
+  }
+}

@@ -1,0 +1,20 @@
+#include "iostm8s103k3.h"
+#include "intrinsics.h"
+
+#define         LED             PD_ODR_ODR7
+#define         BT_ON           PD_IDR_IDR6
+
+unsigned char Status @ 0x4000;
+void main(){
+  CLK_CKDIVR = 0x00;
+  PD_DDR = 0x80;
+  PD_CR1 = 0xE0;
+  PD_CR2 = 0xE0;
+  FLASH_DUKR = 0xAE;
+  FLASH_DUKR = 0x56;
+  LED = 0;
+  while(1){
+    if(!BT_ON) Status = ~Status;
+    LED = Status;
+  }
+}

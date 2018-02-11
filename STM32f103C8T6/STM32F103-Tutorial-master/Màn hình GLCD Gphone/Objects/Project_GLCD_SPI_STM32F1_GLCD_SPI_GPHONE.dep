@@ -1,0 +1,313 @@
+Dependencies for Project 'Project_GLCD_SPI_STM32F1', Target 'GLCD_SPI_GPHONE': (DO NOT MODIFY !)
+F (.\FWLib\Source\core_cm3.c)(0x4C0C668E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+F (.\FWLib\Source\misc.c)(0x50FD88AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+F (.\FWLib\Source\stm32f10x_gpio.c)(0x50FD88AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\FWLib\Source\stm32f10x_rcc.c)(0x50FD88AA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\FWLib\Source\system_stm32f10x.c)(0x50FD88A6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\FWLib\Source\stm32f10x_flash.c)(0x50FD88AC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\Main\main.c)(0x58ABBCE5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (Main\main.h)(0x58ABB098)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476010A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\DEF_STM32.h)(0x58ABA8AC)
+I (.\UserSTM32F1\Include\user_delay.h)(0x58ABA8BB)
+I (.\UserSTM32F1\Include\user_gpio.h)(0x58ABA8D1)
+I (.\UserSTM32F1\Include\user_interrupt.h)(0x58ABA89D)
+I (.\Main\main.h)(0x58ABB098)
+I (.\UserSTM32F1\Include\user_system.h)(0x58ABAD9C)
+I (.\ProjectLib\include\glcd_spi.h)(0x58ABAE40)
+F (.\ProjectLib\source\glcd_spi.c)(0x58AD4122)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\glcd_spi.o --omf_browse .\objects\glcd_spi.crf --depend .\objects\glcd_spi.d)
+I (.\ProjectLib\include\glcd_spi.h)(0x58ABAE40)
+I (.\Main\main.h)(0x58ABB098)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476010A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\DEF_STM32.h)(0x58ABA8AC)
+I (.\UserSTM32F1\Include\user_delay.h)(0x58ABA8BB)
+I (.\UserSTM32F1\Include\user_gpio.h)(0x58ABA8D1)
+I (.\UserSTM32F1\Include\user_interrupt.h)(0x58ABA89D)
+I (.\UserSTM32F1\Include\user_system.h)(0x58ABAD9C)
+I (.\ProjectLib\include\font5x7.h)(0x58ABAEC0)
+F (.\UserSTM32F1\Source C\user_delay.c)(0x53EB2C4D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\user_delay.o --omf_browse .\objects\user_delay.crf --depend .\objects\user_delay.d)
+I (.\UserSTM32F1\Include\user_delay.h)(0x58ABA8BB)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\UserSTM32F1\Source C\user_gpio.c)(0x58ABAF81)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\user_gpio.o --omf_browse .\objects\user_gpio.crf --depend .\objects\user_gpio.d)
+I (.\UserSTM32F1\Include\user_gpio.h)(0x58ABA8D1)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+F (.\UserSTM32F1\Source C\user_interrupt.c)(0x58ABA844)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\user_interrupt.o --omf_browse .\objects\user_interrupt.crf --depend .\objects\user_interrupt.d)
+I (.\UserSTM32F1\Include\user_interrupt.h)(0x58ABA89D)
+I (.\Main\main.h)(0x58ABB098)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476010A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\DEF_STM32.h)(0x58ABA8AC)
+I (.\UserSTM32F1\Include\user_delay.h)(0x58ABA8BB)
+I (.\UserSTM32F1\Include\user_gpio.h)(0x58ABA8D1)
+I (.\UserSTM32F1\Include\user_system.h)(0x58ABAD9C)
+I (.\ProjectLib\include\glcd_spi.h)(0x58ABAE40)
+F (.\UserSTM32F1\Source C\user_system.c)(0x58ABAFFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\FWLib\Include -I.\Main -I.\UserSTM32F1\Include -I.\ProjectLib\include-I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\objects\user_system.o --omf_browse .\objects\user_system.crf --depend .\objects\user_system.d)
+I (.\UserSTM32F1\Include\user_system.h)(0x58ABAD9C)
+I (.\Main\main.h)(0x58ABB098)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5476010A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54760110)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x54760110)
+I (.\FWLib\Include\misc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\core_cm3.h)(0x50FD8897)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54760110)
+I (.\FWLib\Include\core_cmInstr.h)(0x50FD8897)
+I (.\FWLib\Include\core_cmFunc.h)(0x50FD8897)
+I (.\FWLib\Include\system_stm32f10x.h)(0x50FD88A6)
+I (.\FWLib\Include\stm32f10x_conf.h)(0x55153378)
+I (.\FWLib\Include\stm32f10x_adc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_bkp.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_dma.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_exti.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_flash.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_gpio.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_i2c.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_iwdg.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_pwr.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rcc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_rtc.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_spi.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_tim.h)(0x50FD88AD)
+I (.\FWLib\Include\stm32f10x_usart.h)(0x50FD88AD)
+I (.\FWLib\Include\DEF_STM32.h)(0x58ABA8AC)
+I (.\UserSTM32F1\Include\user_delay.h)(0x58ABA8BB)
+I (.\UserSTM32F1\Include\user_gpio.h)(0x58ABA8D1)
+I (.\UserSTM32F1\Include\user_interrupt.h)(0x58ABA89D)
+I (.\ProjectLib\include\glcd_spi.h)(0x58ABAE40)
+F (.\StartUp\arm\startup_stm32f10x_md.s)(0x551F723C)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Users\HP\Desktop\GLCD_GPhone_HomePhone_Driver\MCU_STM32F103C8_Keil_C_UV5_ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)

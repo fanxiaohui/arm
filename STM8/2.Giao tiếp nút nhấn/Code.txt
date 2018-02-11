@@ -1,0 +1,19 @@
+#include "iostm8s103k3.h"
+#include "intrinsics.h"
+
+#define         LED             PD_ODR_ODR7
+#define         BUTTON          PD_IDR_IDR6
+void main(){
+  CLK_CKDIVR = 0x00;
+  PD_DDR = 0x80;
+  PD_CR1 = 0xE0;
+  PD_CR2 = 0xE0;
+  LED = 0;
+  while(1){
+    if(!BUTTON) 
+      {
+        while(!BUTTON);
+        LED = ~LED; // Khi nut duoc nhan se doi trang thai LED
+      }
+  }
+}

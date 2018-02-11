@@ -1,0 +1,33 @@
+#include "iostm8s103k3.h"
+#include "intrinsics.h"
+#define LED PD_ODR_ODR7   // LED du?c g?n v?i PD3
+
+void delay_us(int time){  // Hàm delay
+  while(time--){
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+    __no_operation(); //NOP
+  }
+}
+
+void delay_ms(int time){
+  while(time--){
+    delay_us(1000);
+  }
+}
+
+void main(){
+  CLK_CKDIVR = 0x00;   // T?c d? 16Mhz
+  PD_DDR_DDR7 = 1;     // PD3 ch? d? Output
+  PD_CR1_C17 = 1;      // CR1 ? tr?ng thái cao tr?, cách vi?t khác PD_CR1 = 0x08
+  PD_CR2_C27 = 1;      // CR2 ? tr?ng thái Output t?n s? 10Mhz
+  while(1){
+    LED ^= 1;          // Ð?o bit 1 ~ 0
+    delay_ms(250);     // tr? 250us
+  }
+}

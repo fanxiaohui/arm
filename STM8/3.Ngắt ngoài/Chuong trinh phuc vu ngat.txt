@@ -1,0 +1,4 @@
+#pragma vector =  EXTI3_vector // Vector ngat
+__interrupt void ISR_PD(){
+  // Chuong Trinh Ngat
+}

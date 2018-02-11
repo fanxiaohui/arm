@@ -1,0 +1,10 @@
+void clock_config(){
+  CLK_CKDIVR = 0x00;
+  CLK_ECKR = 0x01;              // Enable HSE
+  while(!(CLK_ECKR & 0x01));    // Wait HSE Ready
+  CLK_SWCR_SWEN = 1;
+  CLK_SWR = 0xB4;
+  while(CLK_CMSR != 0xB4);
+  while(!CLK_SWCR_SWIF);
+  CLK_SWCR_SWIF = 0;
+}
